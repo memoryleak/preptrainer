@@ -4,7 +4,11 @@ body {
 
     font-family: Helvetica, Arial, Sans-Serif;
 }
-
+@media screen and (max-width: 769px) {
+    .container {
+        width: 100%;
+    }
+}
 .container {
     width: 40%;
     margin-left: auto;
