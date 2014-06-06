@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Preposition trainer for italian language</title>
+    <link rel="stylesheet" href="layout.css"/>
+</head>
+<body onload="Proprio.setQuestion()">
+<div class="container">
+    <form name="trainer" class="" action="index.html" enctype="application/x-www-form-urlencoded" autocomplete="off"
+          onsubmit="return Proprio.onAnswerSubmit(this)">
+
+        <span class="preposition" id="preposition">a</span> combined with <span class="person" id="person">li</span>:
+        <input class="answer" name="answer" id="answer"/>
+
+        <p class="help">
+            Type your answer in the box and hit 'Enter'.
+        </p>
+
+    </form>
+    <div id="message">This is a message</div>
+
+</div>
+
+<script src="proprio.js"></script>
+<script src="data.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    margin: 25px 0 0 0;
+    font-size: 1.3em;
+
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.container {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greenShadow {
+    -webkit-box-shadow: 0 0 5px #19B136;
+    -moz-box-shadow:    0 0 5px #19B136;
+    box-shadow:         0 0 5px #19B136;
+    background-color: #19B136;
+    color: #FFF;
+}
+
+.redShadow {
+    -webkit-box-shadow: 0 0 5px #E52F6C;
+    -moz-box-shadow:    0 0 5px #E52F6C;
+    box-shadow:         0 0 5px #E52F6C;
+    background-color: #E52F6C;
+    color: #FFF;
+}
+
+#message {
+    padding: 5px;
+    text-align: center;
+    filter: alpha(opacity = 0);    /* IE 6, 7, 8 */
+    -ms-filter: "alpha(opacity = 0)";  /* ab IE 8 zusätzlich möglich */
+    opacity: 0;
+    width: 100%;
+    display: block;
+}
+
+.answer {
+    height: 2em;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(99, 167, 226, 0.75);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(99, 167, 226, 0.75);
+    box-shadow:         0px 0px 10px 0px rgba(99, 167, 226, 0.75);
+    border: 1px solid #EFEFEF;
+    display: block;
+    font-size: 1em;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+.preposition {
+    color: cornflowerblue;
+}
+
+.person {
+    color: goldenrod;
+}
+
+.help {
+    display: block;
+    opacity: 0.15;
+}
+.help:hover {
+    display: block;
+    opacity: 0.9;
+}
