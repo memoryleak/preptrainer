@@ -11,7 +11,7 @@ Proprio['prepositions'].push(
     {"preposition": "di", "pronoun": "lo", "composition": "dello"},
     {"preposition": "di", "pronoun": "la", "composition": "della"},
     {"preposition": "di", "pronoun": "l'", "composition": "dell'"},
-    {"preposition": "di", "pronoun": "i", "composition": "die"},
+    {"preposition": "di", "pronoun": "i", "composition": "dei"},
     {"preposition": "di", "pronoun": "gli", "composition": "degli"},
     {"preposition": "di", "pronoun": "le", "composition": "delle"},
     {"preposition": "da", "pronoun": "il", "composition": "dal"},
